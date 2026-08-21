@@ -8,7 +8,7 @@ An annotated, from-scratch build of Andrej Karpathy's [Neural Networks: Zero to 
 |---|---|---|---|
 | 1 | [`part1_micrograd/`](part1_micrograd/01_micrograd.ipynb) | [micrograd](https://www.youtube.com/watch?v=VMj-3S1tku0) | ✅ Complete |
 | 2 | [`part2_makemore/`](part2_makemore/02_makemore.ipynb) | [makemore Part 1 (bigrams)](https://www.youtube.com/watch?v=PaCmpygFfXo) | ✅ Complete |
-| 3 | [`part3_makemore_mlp/`](part3_makemore_mlp/03_makemore_mlp.ipynb) | [makemore Part 2 (MLP)](https://www.youtube.com/watch?v=TCH_1BHY58I) | ✅ Complete — **beat Karpathy's canonical dev loss on held-out test** |
+| 3 | [`part3_makemore_mlp/`](part3_makemore_mlp/03_makemore_mlp.ipynb) | [makemore Part 2 (MLP)](https://www.youtube.com/watch?v=TCH_1BHY58I) | ✅ Complete — test loss 2.20, competitive with Karpathy's ~2.17 |
 | 4 | (planned) | makemore Part 3 (BatchNorm) | ⚪ Not started |
 | 5 | (planned) | makemore Part 4 (manual backprop) | ⚪ Not started |
 | 6 | (planned) | makemore Part 5 (WaveNet) | ⚪ Not started |
@@ -26,7 +26,7 @@ Every notebook in this repo follows a consistent set of conventions:
   - "Questions I had (and the answers I found)" — full worked-out answers, inline
   - "Still-open questions" — placeholder for future work
   - "What surprised me" — small facts that would have wasted an hour to figure out later
-- **Ablations where instructive.** Micrograd includes learning-rate and architecture ablations. Makemore Part 1 includes a fair apples-to-apples regularization comparison (re-initialized weights, not continued training). Makemore Part 2 extends the video with a **random-search vs Bayesian-optimization comparison** using Optuna — matches/beats Karpathy's canonical dev loss on a held-out test set.
+- **Ablations where instructive.** Micrograd includes learning-rate and architecture ablations. Makemore Part 1 includes a fair apples-to-apples regularization comparison (re-initialized weights, not continued training). Makemore Part 2 extends the video with a **random-search vs Bayesian-optimization comparison** using Optuna, with deterministic RNG seeding for reproducibility — arrives at a test loss competitive with Karpathy's canonical baseline (~0.03 nats within it).
 - **Bug fixes for common typing errors called out.** e.g. the `__pow__` closure typo and `exp` accumulation error in micrograd.
 
 ## Running the notebooks

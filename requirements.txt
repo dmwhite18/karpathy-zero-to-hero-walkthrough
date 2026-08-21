@@ -3,3 +3,4 @@ torch
 graphviz
 matplotlib
 numpy
+optuna         # Part 3 Sections 11-13: Bayesian hyperparameter optimization

@@ -9,7 +9,7 @@ An annotated, from-scratch build of Andrej Karpathy's [Neural Networks: Zero to 
 | 1 | [`part1_micrograd/`](part1_micrograd/01_micrograd.ipynb) | [micrograd](https://www.youtube.com/watch?v=VMj-3S1tku0) | ✅ Complete |
 | 2 | [`part2_makemore/`](part2_makemore/02_makemore.ipynb) | [makemore Part 1 (bigrams)](https://www.youtube.com/watch?v=PaCmpygFfXo) | ✅ Complete |
 | 3 | [`part3_makemore_mlp/`](part3_makemore_mlp/03_makemore_mlp.ipynb) | [makemore Part 2 (MLP)](https://www.youtube.com/watch?v=TCH_1BHY58I) | ✅ Complete — test loss 2.20, competitive with Karpathy's ~2.17 |
-| 4 | (planned) | makemore Part 3 (BatchNorm) | ⚪ Not started |
+| 4 | [`part4_makemore_bn/`](part4_makemore_bn/04_makemore_bn.ipynb) | [makemore Part 3 (BatchNorm)](https://www.youtube.com/watch?v=P6sfmUTpUmc) | ✅ Complete |
 | 5 | (planned) | makemore Part 4 (manual backprop) | ⚪ Not started |
 | 6 | (planned) | makemore Part 5 (WaveNet) | ⚪ Not started |
 | 7 | (planned) | Building GPT (nanoGPT) | ⚪ Not started |
@@ -64,5 +64,5 @@ The organization, annotations, ablations, and Q&A are mine. See [LICENSE](LICENS
 ## Credits
 
 - **Andrej Karpathy** — original videos, code, and pedagogy: https://karpathy.ai/zero-to-hero.html
-- **`names.txt` dataset** in `part2_makemore/` and `part3_makemore_mlp/` — from Karpathy's [makemore repo](https://github.com/karpathy/makemore) (MIT-licensed)
+- **`names.txt` dataset** in `part2_makemore/`, `part3_makemore_mlp/`, and `part4_makemore_bn/` — from Karpathy's [makemore repo](https://github.com/karpathy/makemore) (MIT-licensed)
 - **[Optuna](https://optuna.org/)** — Bayesian hyperparameter optimization (Sections 11-13 of Part 3)

@@ -4,3 +4,4 @@ graphviz
 matplotlib
 numpy
 optuna         # Part 3 Sections 11-13: Bayesian hyperparameter optimization
+tiktoken       # Part 5 Section 8: OpenAI's production tokenizer, for comparison

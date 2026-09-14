@@ -10,9 +10,10 @@ An annotated, from-scratch build of Andrej Karpathy's [Neural Networks: Zero to 
 | 2 | [`part2_makemore/`](part2_makemore/02_makemore.ipynb) | [makemore Part 1 (bigrams)](https://www.youtube.com/watch?v=PaCmpygFfXo) | ✅ Complete |
 | 3 | [`part3_makemore_mlp/`](part3_makemore_mlp/03_makemore_mlp.ipynb) | [makemore Part 2 (MLP)](https://www.youtube.com/watch?v=TCH_1BHY58I) | ✅ Complete — test loss 2.20, competitive with Karpathy's ~2.17 |
 | 4 | [`part4_makemore_bn/`](part4_makemore_bn/04_makemore_bn.ipynb) | [makemore Part 3 (BatchNorm)](https://www.youtube.com/watch?v=P6sfmUTpUmc) | ✅ Complete |
-| 5 | (planned) | makemore Part 4 (manual backprop) | ⚪ Not started |
-| 6 | (planned) | makemore Part 5 (WaveNet) | ⚪ Not started |
-| 7 | (planned) | Building GPT (nanoGPT) | ⚪ Not started |
+| 5 | [`part5_tokenizer/`](part5_tokenizer/05_tokenizer.ipynb) | [Let's build the GPT Tokenizer](https://www.youtube.com/watch?v=zduSFxRajkE) | ✅ Complete — byte-level BPE from scratch, matched against `tiktoken` |
+| 6 | (planned) | makemore Part 4 (manual backprop) | ⚪ Not started |
+| 7 | (planned) | makemore Part 5 (WaveNet) | ⚪ Not started |
+| 8 | (planned) | Building GPT (nanoGPT) | ⚪ Not started |
 
 ## What makes this different from the originals
 
@@ -65,4 +66,6 @@ The organization, annotations, ablations, and Q&A are mine. See [LICENSE](LICENS
 
 - **Andrej Karpathy** — original videos, code, and pedagogy: https://karpathy.ai/zero-to-hero.html
 - **`names.txt` dataset** in `part2_makemore/`, `part3_makemore_mlp/`, and `part4_makemore_bn/` — from Karpathy's [makemore repo](https://github.com/karpathy/makemore) (MIT-licensed)
+- **`tinyshakespeare` corpus** — auto-downloaded by Part 5 at runtime from Karpathy's [char-rnn repo](https://github.com/karpathy/char-rnn) (MIT-licensed)
 - **[Optuna](https://optuna.org/)** — Bayesian hyperparameter optimization (Sections 11-13 of Part 3)
+- **[tiktoken](https://github.com/openai/tiktoken)** — OpenAI's production tokenizer, used in Part 5 Section 8 as the correctness reference for the from-scratch BPE build

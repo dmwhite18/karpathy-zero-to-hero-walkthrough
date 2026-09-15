@@ -11,9 +11,13 @@ An annotated, from-scratch build of Andrej Karpathy's [Neural Networks: Zero to 
 | 3 | [`part3_makemore_mlp/`](part3_makemore_mlp/03_makemore_mlp.ipynb) | [makemore Part 2 (MLP)](https://www.youtube.com/watch?v=TCH_1BHY58I) | ✅ Complete — test loss 2.20, competitive with Karpathy's ~2.17 |
 | 4 | [`part4_makemore_bn/`](part4_makemore_bn/04_makemore_bn.ipynb) | [makemore Part 3 (BatchNorm)](https://www.youtube.com/watch?v=P6sfmUTpUmc) | ✅ Complete |
 | 5 | [`part5_tokenizer/`](part5_tokenizer/05_tokenizer.ipynb) | [Let's build the GPT Tokenizer](https://www.youtube.com/watch?v=zduSFxRajkE) | ✅ Complete — byte-level BPE from scratch, matched against `tiktoken` |
-| 6 | (planned) | makemore Part 4 (manual backprop) | ⚪ Not started |
-| 7 | (planned) | makemore Part 5 (WaveNet) | ⚪ Not started |
-| 8 | (planned) | Building GPT (nanoGPT) | ⚪ Not started |
+| 6 | (planned) | [Let's build GPT (nanoGPT)](https://www.youtube.com/watch?v=kCc8FmEb1nY) | ⚪ Not started |
+| 7 | (planned) | [Let's reproduce GPT-2 (124M)](https://www.youtube.com/watch?v=l8pRSuU81PU) | ⚪ Not started |
+
+### Intentionally skipped
+
+- **makemore Part 4 ("Becoming a Backprop Ninja") — manual backprop through a full MLP + BatchNorm.** The gradient intuition is already load-bearing from Part 1 (micrograd, built by hand). Revisit only if a specific need arises.
+- **makemore Part 5 (WaveNet).** Dilated-convolution architecture — niche, not on the critical path for LLM/GenAI engineering. Revisit only if a specific project demands it.
 
 ## What makes this different from the originals
 

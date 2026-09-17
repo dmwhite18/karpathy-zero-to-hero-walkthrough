@@ -64,10 +64,7 @@ Built while training to be an LLM/GenAI engineer. The pedagogical structure and 
 
 The organization, annotations, ablations, and Q&A are mine. See [LICENSE](LICENSE) for details.
 
-**Also see:**
-
-- [`options-flow-explainer`](https://github.com/dmwhite18/options-flow-explainer) — my first shipped LLM app, extracted from this training arc: a CLI that ranks unusual options-flow activity with Claude structured output, calibrated confidence, and honest handling of noisy inputs (spread legs, institutional hedges, LEAPs). Uses `tool_use` for schema-forced output; ~$0.18 to analyze 25 flows with Sonnet 5.
-- [`micrograd-walkthrough`](https://github.com/dmwhite18/micrograd-walkthrough) — my first standalone version of Part 1, preserved as a historical marker (my first-ever public GitHub repo).
+**Also see:** [`micrograd-walkthrough`](https://github.com/dmwhite18/micrograd-walkthrough) — my first standalone version of Part 1, preserved as a historical marker (my first-ever public GitHub repo).
 
 ## Credits
 

@@ -64,7 +64,10 @@ Built while training to be an LLM/GenAI engineer. The pedagogical structure and 
 
 The organization, annotations, ablations, and Q&A are mine. See [LICENSE](LICENSE) for details.
 
-**Also see:** [`micrograd-walkthrough`](https://github.com/dmwhite18/micrograd-walkthrough) — my first standalone version of Part 1, preserved as a historical marker (my first-ever public GitHub repo).
+**Also see:**
+
+- [`cnn-lstm-trading-bot`](https://github.com/dmwhite18/cnn-lstm-trading-bot) — my earlier self-directed ML project (2022–2025): multi-kernel 1D CNN news-sentiment classifier + stacked Bidirectional LSTM price regressor with per-ticker agreement-gating. Predates this training arc, included here for lineage.
+- [`micrograd-walkthrough`](https://github.com/dmwhite18/micrograd-walkthrough) — my first standalone version of Part 1, preserved as a historical marker (my first-ever public GitHub repo).
 
 ## Credits
 
